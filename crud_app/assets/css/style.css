@@ -64,6 +64,7 @@ a{
     --webkit-background-clip : text;
     background-clip: text;
     --webkit-text-fill-color : transparent;
+    font-size: 1.2em;
 }
 
 #header nav{
@@ -102,6 +103,7 @@ table{
     padding: 0.3em 1em;
     font-size: 1.1em;
     margin: 0 0.2em ;
+    cursor: pointer;
 }
 
 .table tr:hover{
@@ -156,7 +158,10 @@ table{
     margin: 0.4em 0;
 }
 
-#update_user .form-group input[type="text"]{
+#update_user .form-group input[type="text"],
+#add_user .form-group input[type="text"],
+#update_user .form-group input[type="email"],
+#add_user .form-group input[type="email"]{
     width: 100%;
     padding: 0.6em 1em;
     margin: 0.5em 0;
