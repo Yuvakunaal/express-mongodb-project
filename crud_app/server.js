@@ -35,4 +35,3 @@ app.use('/',require('./server/routes/router'));
 app.listen(port,() => {
     console.log(`Running on http://localhost:${port}`);
 });
-
